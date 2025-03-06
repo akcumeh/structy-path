@@ -5,6 +5,32 @@
 # are anagrams.
 # Anagrams are strings that contain the same characters, but in any order.
 
+# test cases
+
+
 def anagrams(s1, s2):
-    # todo
-    pass
+    isAnagram = (counter(s1) == counter(s2))
+    print(isAnagram)
+    return isAnagram
+
+
+def counter(string):
+    count = {}
+    for letter in string:
+        if letter in count:
+            count[letter] += 1
+        else:
+            count[letter] = 1
+    return count
+
+anagrams('restful', 'fluster') # -> True
+anagrams('cats', 'tocs') # -> False
+anagrams('monkeyswrite', 'newyorktimes') # -> True
+anagrams('paper', 'reapa') # -> False
+anagrams('elbow', 'below') # -> True
+anagrams('tax', 'taxi') # -> False
+anagrams('taxi', 'tax') # -> False
+anagrams('night', 'thing') # -> True
+anagrams('abbc', 'aabc') # -> False
+anagrams('po', 'popp') # -> false
+anagrams('pp', 'oo') # -> false
