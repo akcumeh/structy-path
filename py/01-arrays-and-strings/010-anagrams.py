@@ -5,9 +5,6 @@
 # are anagrams.
 # Anagrams are strings that contain the same characters, but in any order.
 
-# test cases
-
-
 def anagrams(s1, s2):
     isAnagram = (counter(s1) == counter(s2))
     print(isAnagram)
@@ -23,6 +20,8 @@ def counter(string):
             count[letter] = 1
     return count
 
+
+# Test cases
 anagrams('restful', 'fluster') # -> True
 anagrams('cats', 'tocs') # -> False
 anagrams('monkeyswrite', 'newyorktimes') # -> True
