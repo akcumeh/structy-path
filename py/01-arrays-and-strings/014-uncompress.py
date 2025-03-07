@@ -1,5 +1,13 @@
 def uncompress(str):
     uncompressed = ""
+    i=0
+    j=0
+
+    while j < len(str):
+        if str[j] in "abcdefghijklmnopqrstuvwxyz":
+            uncompressed += str[j] * int(str[i:j])
+            i=j+1
+        j+=1
 
     print(uncompressed)
     return uncompressed
