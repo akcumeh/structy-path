@@ -2,15 +2,15 @@
 Learning data structures & algorithms on Structy.net
 
 # Table of Contents
-The content is in two languages,
-
-- [js](./js/)
-- [py](./py/)
-
 ## Sections
 - [01 - Arrays & Strings](#01---arrays--strings)
 - [02 - Beginner Recursion](./*/02-beginner-recursion)
 - more sections coming
+
+| Section | Problem | Solution | 
+|---------|---------|----------|
+| [01 - Arrays & Strings](#01---arrays--strings) | [010-anagrams](#010---anagrams) | [Solution](./py/01-arrays-and-strings/010-anagrams.py) | 
+|  | [011-most-freq-char](#011---most-frequent-character) | [Solution](./py/01-arrays-and-strings/011-most-freq-char.py) | 
 
 ## 01 - Arrays & Strings
 
