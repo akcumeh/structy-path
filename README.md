@@ -2,10 +2,6 @@
 Learning data structures & algorithms on Structy.net
 
 ## Table of Contents
-- [01 - Arrays & Strings](#01---arrays--strings)
-- [02 - Beginner Recursion](./*/02-beginner-recursion)
-- more sections coming
-
 | Section | Problem | Solution | 
 |---------|---------|----------|
 | [01 - Arrays & Strings](#01---arrays--strings) | [010-anagrams](#010---anagrams) | [py](./py/01-arrays-and-strings/010-anagrams.py) / [js](./js/01-arrays-and-strings/010-anagrams.js) |
@@ -14,6 +10,8 @@ Learning data structures & algorithms on Structy.net
 |  | [013-pair-product](#013---pair-product) | [py](./py/01-arrays-and-strings/013-pair-product.py) / [js](./js/01-arrays-and-strings/013-pair-product.js) | 
 |  | [014-uncompress](#014---uncompress) | [py](./py/01-arrays-and-strings/014-uncompress.py) / [js](./js/01-arrays-and-strings/014-uncompress.js) | 
 |  | [015-compress](#015---compress) | [py](./py/01-arrays-and-strings/015-compress.py) / [js](./js/01-arrays-and-strings/015-compress.js) | 
+| [02 - Beginner Recursion]() | [024-sum-numbers-recursive](#024---sum-numbers-recursive) | [py](./py/02-beginner-recursion/024-sum-numbers-recursive.py) / [js](./js/02-beginner-recursion/024-sum-numbers-recursive.js) | 
+|  | [025-factorial](#025---factorial) | [py](./py/02-beginner-recursion/025-factorial.py) / [js](./js/02-beginner-recursion/025-factorial.js) | 
 
 ## 01 - Arrays & Strings
 
@@ -107,3 +105,23 @@ You can assume that the input only contains alphabetic characters.
 #### Break in Transmission...
 Me when I switch to py for 3 seconds:
 ![context switcher](./py/assets/context-switcher.png)
+
+
+## 02 - Beginner Recursion
+### [024 - sum numbers recursive](https://structy.net/problems/sum-numbers-recursive)
+#### Problem
+Problem
+
+#### Solutions
+[Solution - py]()
+
+[Solution - js]()
+
+### [025 - factorial](https://structy.net/problems/factorial)
+#### Problem
+Problem
+
+#### Solutions
+[Solution - py]()
+
+[Solution - js]()
