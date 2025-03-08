@@ -1,11 +1,11 @@
-def uncompress(str):
+def uncompress(word):
     uncompressed = ""
     i=0
     j=0
 
-    while j < len(str):
-        if str[j] in "abcdefghijklmnopqrstuvwxyz":
-            uncompressed += str[j] * int(str[i:j])
+    while j < len(word):
+        if word[j] in "abcdefghijklmnopqrstuvwxyz":
+            uncompressed += word[j] * int(word[i:j])
             i=j+1
         j+=1
 
