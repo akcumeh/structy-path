@@ -1,8 +1,7 @@
 # structy-path
 Learning data structures & algorithms on Structy.net
 
-# Table of Contents
-## Sections
+## Table of Contents
 - [01 - Arrays & Strings](#01---arrays--strings)
 - [02 - Beginner Recursion](./*/02-beginner-recursion)
 - more sections coming
@@ -10,7 +9,11 @@ Learning data structures & algorithms on Structy.net
 | Section | Problem | Solution | 
 |---------|---------|----------|
 | [01 - Arrays & Strings](#01---arrays--strings) | [010-anagrams](#010---anagrams) | [py](./py/01-arrays-and-strings/010-anagrams.py) / [js](./js/01-arrays-and-strings/010-anagrams.js) |
-|  | [011-most-freq-char](#011---most-frequent-character) | [py](./py/01-arrays-and-strings/011-most-freq-char.py) / js | 
+|  | [011-most-freq-char](#011---most-frequent-char) | [py](./py/01-arrays-and-strings/011-most-freq-char.py) / [js](./js/01-arrays-and-strings/011-most-freq-char.js) | 
+|  | [012-pair-sum](#012---pair-sum) | [py](./py/01-arrays-and-strings/012-pair-sum.py) / [js](./js/01-arrays-and-strings/012-pair-sum.js) | 
+|  | [013-pair-product](#013---pair-product) | [py](./py/01-arrays-and-strings/013-pair-product.py) / [js](./js/01-arrays-and-strings/013-pair-product.js) | 
+|  | [014-uncompress](#014---uncompress) | [py](./py/01-arrays-and-strings/014-uncompress.py) / [js](./js/01-arrays-and-strings/014-uncompress.js) | 
+|  | [015-compress](#015---compress) | [py](./py/01-arrays-and-strings/015-compress.py) / [js](./js/01-arrays-and-strings/015-compress.js) | 
 
 ## 01 - Arrays & Strings
 
@@ -40,8 +43,6 @@ If there are ties, return the character that appears earlier in the string.
 [Solution - js](./js/01-arrays-and-strings/011-most-freq-char.js)
 ![All Testcases Passed - js](./assets/011-most-freq-char.js.png)
 
-Solution - js
-
 ### [012 - pair sum](https://structy.net/problems/pair-sum)
 #### Problem
 Write a function, pair_sum, that takes in a list and a target sum as args.
@@ -54,6 +55,9 @@ There is guaranteed to be one such pair that sums to the target.
 #### Solutions
 [Solution - py](./py/01-arrays-and-strings/012-pair-sum.py)
 ![All Testcases Passed](./assets/012-pair-sum.py.png)
+
+[Solution - js](./js/01-arrays-and-strings/012-pair-sum.js)
+![All Testcases Passed](./assets/012-pair-sum.js.png)
 
 ### [013 - pair product](https://structy.net/problems/pair-product)
 #### Problem
