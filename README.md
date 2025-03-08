@@ -14,7 +14,7 @@ Learning data structures & algorithms on Structy.net
 
 ## 01 - Arrays & Strings
 
-### 010 - anagrams
+### [010 - anagrams](https://structy.com/problems/anagrams)
 #### Problem
 Write a function, anagrams, that takes in two strings as arguments.
 The function should return a boolean indicating whether or not the strings are anagrams.
