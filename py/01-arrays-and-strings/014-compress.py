@@ -1,4 +1,5 @@
 def compress(word):
+    # brute force attempt 2
     compressed = ""
     letters = ""
     counts = []
@@ -29,20 +30,32 @@ compress('ppoppppp') # -> '2po5p'
 compress('nnneeeeeeeeeeeezz') # -> '3n12e2z'
 compress('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'); 
 # -> '127y'
+print('\n')
 
 def compress2(word):
+    # with approach & walkthrough videos
     compressed2=""
-    holder=word[0]
-
-    for i in range(len(word)):
-        if word[i-1] == word[i]:
-            holder+=word[i]
-        else:
-            compressed2+=str(len(holder))+holder[-1]
-            holder=""
+    i=0
+    j=0
     
+    while j < len(word):
+        if word[i] == word[j]:
+            j+=1
+        else:
+            count = j-i
+            if count > 1:
+                compressed2+=str(j-i)+word[i]
+            else:
+                compressed2+=word[i]
+            i=j
+        if j == len(word)-1:
+            if count > 1:
+                compressed2+=str(j-i)+word[i]
+            else:
+                compressed2+=word[i]
+
     print(compressed2)
-    return
+    return compressed2
 
 compress2('ccaaatsss') # -> '2c3at3s'
 compress2('ssssbbz') # -> '4s2bz'
