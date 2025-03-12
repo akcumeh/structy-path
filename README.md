@@ -61,6 +61,8 @@ You can assume that the input number is a positive integer.
 [Solution - js](./js/00-introduction/005-is-prime.js)
 ![All Testcases Passed](./assets/005-is-prime.js.png)
 
+[[Back to Top]](#table-of-contents)
+
 ## 01 - Arrays & Strings
 
 ### [009 - anagrams](https://structy.net/problems/anagrams)
@@ -157,6 +159,7 @@ You can assume that the input only contains alphabetic characters.
 Me when I switch to py for 3 seconds:
 ![context switcher](./py/assets/context-switcher.png)
 
+[[Back to Top]](#table-of-contents)
 
 ## 02 - Beginner Recursion
 ### [023 - sum numbers recursive](https://structy.net/problems/sum-numbers-recursive)
@@ -176,3 +179,5 @@ Problem
 [Solution - py]()
 
 [Solution - js]()
+
+[[Back to Top]](#table-of-contents)
