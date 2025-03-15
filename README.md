@@ -18,6 +18,8 @@ Learning data structures & algorithms on Structy.net
 |  | [072-compress](#072---compress) | [py](./py/01-hashing/072-compress.py) / [js](./js/01-hashing/072-compress.js) | 
 |  | [017-intersection](#017---intersection) | [py](./py/01-hashing/017-intersection.py) / [js](./js/01-hashing/017-intersection.js) | 
 |  | [019-exclusive-items](#019---exclusive-items) | [py](./py/01-hashing/019-exclusive-items.py) / [js](./js/01-hashing/019-exclusive-items.js) | 
+|  | [021-all-unique](#019---exclusive-items) | [py](./py/01-hashing/021-all-unique.py) / [js](./js/01-hashing/021-all-unique.js) | 
+|  | [022-intersection-with-dupes](#022---intersection-with-duplicates) | [py](./py/01-hashing/022-intersection-with-dupes.py) / [js](./js/01-hashing/022-intersection-with-dupes.js) | 
 | [02 - Beginner Recursion](#02---beginner-recursion) | [023-sum-numbers-recursive](#023---sum-numbers-recursive) | [py](./py/02-beginner-recursion/023-sum-numbers-recursive.py) / [js](./js/02-beginner-recursion/023-sum-numbers-recursive.js) | 
 |  | [024-factorial](#024---factorial) | [py](./py/02-beginner-recursion/024-factorial.py) / [js](./js/02-beginner-recursion/024-factorial.js) | 
 
@@ -267,6 +269,26 @@ You may assume that each input list does not contain duplicate elements.
 
 [Solution - js](./js/01-hashing/019-exclusive-items.js)
 ![All Testcases Passed](./assets/019-exclusive-items.js.png)
+
+[[Section Top]](#01---hashing)
+
+### [021 - all unique](https://structy.net/problems/all-unique)
+#### Problem
+Write a function, _all\_unique_, that takes in a list. The function should return a boolean indicating whether or not the list contains unique items.
+
+#### Solutions
+- [Solution - py](./py/01-hashing/021-all-unique.py)
+- [Solution - js](./js/01-hashing/021-all-unique.js)
+![All Testcases Passed](./assets/021-all-unique.png)
+
+### [022 - intersection with duplicates](https://structy.net/problems/intersection-with-dupes)
+#### Problem
+Write a function, _all\_unique_, that takes in a list. The function should return a boolean indicating whether or not the list contains unique items.
+
+#### Solutions
+- [Solution - py](./py/01-hashing/022-intersection-with-dupes.py)
+- [Solution - js](./js/01-hashing/022-intersection-with-dupes.js)
+![All Testcases Passed](./assets/022-intersection-with-dupes.png)
 
 [[Section Top]](#01---hashing)
 
