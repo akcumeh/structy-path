@@ -17,3 +17,6 @@ print(all_unique(["red", "blue", "yellow", "green", "orange"])) # -> True
 print(all_unique(["cat", "cat", "dog"])) # -> False
 print(all_unique(["a", "u", "t", "u", "m", "n"])) # -> False
 print(all_unique("spring".split())) # -> True
+
+print(all_unique("the quick brown fox jumps over the lazy dog".split())) # -> False
+print(all_unique("the quick brown fox jumps lazy dog".split())) # -> True

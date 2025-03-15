@@ -283,7 +283,9 @@ Write a function, _all\_unique_, that takes in a list. The function should retur
 
 ### [022 - intersection with duplicates](https://structy.net/problems/intersection-with-dupes)
 #### Problem
-Write a function, _all\_unique_, that takes in a list. The function should return a boolean indicating whether or not the list contains unique items.
+Write a function, _intersection\_with\_dupes_, that takes in two lists, _a_, _b_, as arguments. The function should return a new list containing elements that are common to both input lists. The elements in the result should appear as many times as they occur in both input lists.
+
+You can return the result in any order.
 
 #### Solutions
 - [Solution - py](./py/01-hashing/022-intersection-with-dupes.py)
