@@ -13,7 +13,7 @@ function fizzBuzz(number) {
         }
     };
     
-    console.log(fizzBuzzList);
+    return fizzBuzzList;
 };
 
 // test cases

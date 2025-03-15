@@ -10,6 +10,7 @@ def fizz_buzz(number):
             fizz_buzz_list.append("buzz")
         else:
             fizz_buzz_list.append(i)
+            
     print(fizz_buzz_list)
     return fizz_buzz_list
 

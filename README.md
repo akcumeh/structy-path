@@ -6,14 +6,18 @@ Learning data structures & algorithms on Structy.net
 |---------|---------|----------|
 | [00 - Introduction](#00---introduction) | [003-hey-programmer](#003---hey-programmer) | [py](./py/00-introduction/003-hey-programmer.py) / [js](./js/00-introduction/003-hey-programmer.js) |
 |  | [004-max-value](#004---max-value) | [py](./py/00-introduction/004-max-value.py) / [js](./js/00-introduction/004-max-value.js) |
-|  | [006-is-prime](#005---is-prime) | [py](./py/00-introduction/006-is-prime.py) / [js](./js/00-introduction/006-is-prime.js) |
-| [01 - Arrays & Strings](#01---arrays--strings) | [013-anagrams](#009---anagrams) | [py](./py/01-hashing/013-anagrams.py) / [js](./js/01-hashing/013-anagrams.js) |
-|  | [010-most-freq-char](#010---most-frequent-char) | [py](./py/01-hashing/010-most-freq-char.py) / [js](./js/01-hashing/010-most-freq-char.js) | 
-|  | [011-pair-sum](#011---pair-sum) | [py](./py/01-hashing/011-pair-sum.py) / [js](./js/01-hashing/011-pair-sum.js) | 
-|  | [012-pair-product](#012---pair-product) | [py](./py/01-hashing/012-pair-product.py) / [js](./js/01-hashing/012-pair-product.js) | 
-|  | [013-uncompress](#013---uncompress) | [py](./py/01-hashing/013-uncompress.py) / [js](./js/01-hashing/013-uncompress.js) | 
-|  | [014-compress](#014---compress) | [py](./py/01-hashing/014-compress.py) / [js](./js/01-hashing/014-compress.js) | 
-|  | [016-intersection](#016---intersection) | [py](./py/01-hashing/016-intersection.py) / [js](./js/01-hashing/016-intersection.js) | 
+|  | [005-longest-word](#005---longest-word) | [py](./py/00-introduction/005-longest-word.py) / [js](./js/00-introduction/005-longest-word.js) |
+|  | [006-is-prime](#006---is-prime) | [py](./py/00-introduction/006-is-prime.py) / [js](./js/00-introduction/006-is-prime.js) |
+|  | [010-fizz-buzz](#010---fizz-buzz) | [py](./py/00-introduction/010-fizz-buzz.py) / [js](./js/00-introduction/010-fizz-buzz.js) |
+|  | [011-pairs](#011---pairs) | [py](./py/00-introduction/011-pairs.py) / [js](./js/00-introduction/011-pairs.js) |
+| [01 - Hashing](#01---hashing) | [013-anagrams](#009---anagrams) | [py](./py/01-hashing/013-anagrams.py) / [js](./js/01-hashing/013-anagrams.js) |
+|  | [014-most-freq-char](#014---most-frequent-char) | [py](./py/01-hashing/014-most-freq-char.py) / [js](./js/01-hashing/014-most-freq-char.js) | 
+|  | [015-pair-sum](#015---pair-sum) | [py](./py/01-hashing/015-pair-sum.py) / [js](./js/01-hashing/015-pair-sum.js) | 
+|  | [016-pair-product](#016---pair-product) | [py](./py/01-hashing/016-pair-product.py) / [js](./js/01-hashing/016-pair-product.js) | 
+|  | [071-uncompress](#071---uncompress) | [py](./py/01-hashing/071-uncompress.py) / [js](./js/01-hashing/071-uncompress.js) | 
+|  | [072-compress](#072---compress) | [py](./py/01-hashing/072-compress.py) / [js](./js/01-hashing/072-compress.js) | 
+|  | [017-intersection](#017---intersection) | [py](./py/01-hashing/017-intersection.py) / [js](./js/01-hashing/017-intersection.js) | 
+|  | [019-exclusive-items](#019---exclusive-items) | [py](./py/01-hashing/019-exclusive-items.py) / [js](./js/01-hashing/019-exclusive-items.js) | 
 | [02 - Beginner Recursion](#02---beginner-recursion) | [023-sum-numbers-recursive](#023---sum-numbers-recursive) | [py](./py/02-beginner-recursion/023-sum-numbers-recursive.py) / [js](./js/02-beginner-recursion/023-sum-numbers-recursive.js) | 
 |  | [024-factorial](#024---factorial) | [py](./py/02-beginner-recursion/024-factorial.py) / [js](./js/02-beginner-recursion/024-factorial.js) | 
 
@@ -83,11 +87,45 @@ You can assume that the input number is a positive integer.
 
 [[Section Top]](#00---introduction)
 
+### [010 - fizz buzz](https://structy.net/problems/fizz-buzz)
+#### Problem
+Write a function, _fizz\_buzz_, that takes in a number n as an argument. The function should return a list containing numbers from 1 to n, replacing certain numbers according to the following rules:
+
+- if the number is divisible by 3, make the element "fizz"
+- if the number is divisible by 5, make the element "buzz"
+- if the number is divisible by 3 and 5, make the element "fizzbuzz"
+
+#### Solutions
+[Solution - py](./py/00-introduction/010-fizz-buzz.py)
+![All Testcases Passed](./assets/010-fizz-buzz.py.png)
+
+[Solution - js](./js/00-introduction/010-fizz-buzz.js)
+![All Testcases Passed](./assets/010-fizz-buzz.js.png)
+
+[[Section Top]](#00---introduction)
+
+### [011 - pairs](https://structy.net/problems/pairs)
+#### Problem
+Write a function, _pairs_, that takes in a list as an argument. The function should return a list containing all unique pairs of elements.
+
+You may return the pairs in any order and the order of elements within a single pair does not matter.
+
+You can assume that the input list contains unique elements.
+
+#### Solutions
+[Solution - py](./py/00-introduction/011-pairs.py)
+![All Testcases Passed](./assets/011-pairs.py.png)
+
+[Solution - js](./js/00-introduction/011-pairs.js)
+![All Testcases Passed](./assets/011-pairs.js.png)
+
+[[Section Top]](#00---introduction)
+
 [[Back to Top]](#table-of-contents)
 
 
 
-## 01 - Arrays & Strings
+## 01 - Hashing
 
 ### [013 - anagrams](https://structy.net/problems/anagrams)
 #### Problem
@@ -102,24 +140,24 @@ Anagrams are strings that contain the same characters, but in any order.
 [Solution - js](./js/01-hashing/013-anagrams.js)
 ![All Testcases Passed - js](./assets/013-anagrams.js.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
 
-### [010 - most frequent char](https://structy.net/problems/most-frequent-char)
+### [014 - most frequent char](https://structy.net/problems/most-frequent-char)
 #### Problem
 Write a function, most_frequent_char that takes in a string as an argument.
 The function should return the most frequent character of the string.
 If there are ties, return the character that appears earlier in the string.
 
 #### Solutions
-[Solution - py](./py/01-hashing/010-most-freq-char.py)
-![All Testcases Passed - py](./assets/010-most-freq-char.py.png)
+[Solution - py](./py/01-hashing/014-most-freq-char.py)
+![All Testcases Passed - py](./assets/014-most-freq-char.py.png)
 
-[Solution - js](./js/01-hashing/010-most-freq-char.js)
-![All Testcases Passed - js](./assets/010-most-freq-char.js.png)
+[Solution - js](./js/01-hashing/014-most-freq-char.js)
+![All Testcases Passed - js](./assets/014-most-freq-char.js.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
 
-### [011 - pair sum](https://structy.net/problems/pair-sum)
+### [015 - pair sum](https://structy.net/problems/pair-sum)
 #### Problem
 Write a function, _pair\_sum_, that takes in a list and a target sum as args.
 
@@ -129,15 +167,15 @@ Be sure to return the indices, not the elements themselves.
 There is guaranteed to be one such pair that sums to the target.
 
 #### Solutions
-[Solution - py](./py/01-hashing/011-pair-sum.py)
-![All Testcases Passed](./assets/011-pair-sum.py.png)
+[Solution - py](./py/01-hashing/015-pair-sum.py)
+![All Testcases Passed](./assets/015-pair-sum.py.png)
 
-[Solution - js](./js/01-hashing/011-pair-sum.js)
-![All Testcases Passed](./assets/011-pair-sum.js.png)
+[Solution - js](./js/01-hashing/015-pair-sum.js)
+![All Testcases Passed](./assets/015-pair-sum.js.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
 
-### [012 - pair product](https://structy.net/problems/pair-product)
+### [016 - pair product](https://structy.net/problems/pair-product)
 #### Problem
 Write a function, _pair\_product_, that takes in a list and a target product as arguments.
 
@@ -146,15 +184,15 @@ Be sure to return the indices, not the elements themselves.
 There is guaranteed to be one such pair whose product is the target.
 
 #### Solutions
-[Solution - py](./py/01-hashing/012-pair-product.py)
-![All Testcases Passed](./assets/012-pair-product.py.png)
+[Solution - py](./py/01-hashing/016-pair-product.py)
+![All Testcases Passed](./assets/016-pair-product.py.png)
 
-[Solution - js](./js/01-hashing/012-pair-product.js)
-![All Testcases Passed](./assets/012-pair-product.js.png)
+[Solution - js](./js/01-hashing/016-pair-product.js)
+![All Testcases Passed](./assets/016-pair-product.js.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
 
-### [013 - uncompress](https://structy.net/problems/uncompress)
+### [071 - uncompress](https://structy.net/problems/uncompress)
 #### Problem
 Write a function, uncompress, that takes in a string as an argument. The input string will be formatted into multiple groups according to the following pattern:
 
@@ -167,12 +205,12 @@ for example, '2c' or '3a'.
 The function should return an uncompressed version of the string where each 'char' of a group is repeated 'number' times consecutively. You may assume that the input string is well-formed according to the previously mentioned pattern.
 
 #### Solutions
-[Solution - py](./py/01-hashing/013-uncompress.py)
-![All Testcases Passed](./assets/013-uncompress.py.png)
+[Solution - py](./py/01-hashing/071-uncompress.py)
+![All Testcases Passed](./assets/071-uncompress.py.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
 
-### [014 - compress](https://structy.net/problems/compress)
+### [072 - compress](https://structy.net/problems/compress)
 #### Problem
 Write a function, compress, that takes in a string as an argument. The function should return a compressed version of the string where consecutive occurrences of the same characters are compressed into the number of occurrences followed by the character. Single character occurrences should not be changed.
 
@@ -185,35 +223,52 @@ Write a function, compress, that takes in a string as an argument. The function 
 You can assume that the input only contains alphabetic characters.
 
 #### Solutions(es?)
-[Solution - py](./py/01-hashing/014-compress.py)
-![All Testcases Passed](./assets/014-compress.py.png)
+[Solution - py](./py/01-hashing/072-compress.py)
+![All Testcases Passed](./assets/072-compress.py.png)
 
-[Solution - js](./js/01-hashing/014-compress.js)
-![All Testcases Passed](./assets/014-compress.js.png)
+[Solution - js](./js/01-hashing/072-compress.js)
+![All Testcases Passed](./assets/072-compress.js.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
 
 [[Back to Top]](#table-of-contents)
+
+
 
 #### Break in Transmission...
 Me when I switch to py for 3 seconds:
 ![context switcher](./py/assets/context-switcher.png)
 
 
-### [016 - intersection](https://structy.net/problems/intersection)
+### [017 - intersection](https://structy.net/problems/intersection)
 #### Problem
 Write a function, _intersection_, that takes in two arrays, _a_, _b_, as arguments. The function should return a new array containing elements that are in both of the two arrays.
 
 You may assume that each input array does not contain duplicate elements.
 
 #### Solutions
-[Solution - py](./py/01-hashing/016-intersection.py)
-![All Testcases Passed](./assets/016-intersection.py.png)
+[Solution - py](./py/01-hashing/017-intersection.py)
+![All Testcases Passed](./assets/017-intersection.py.png)
 
-[Solution - js](./js/01-hashing/016-intersection.js)
-![All Testcases Passed](./assets/016-intersection.js.png)
+[Solution - js](./js/01-hashing/017-intersection.js)
+![All Testcases Passed](./assets/017-intersection.js.png)
 
-[[Section Top]](#01---arrays--strings)
+[[Section Top]](#01---hashing)
+
+### [019 - exclusive items](https://structy.net/problems/exclusive-items)
+#### Problem
+Write a function, _exclusive\_items_, that takes in two lists, _a_, _b_, as arguments. The function should return a new list containing elements that are in either list but not both lists.
+
+You may assume that each input list does not contain duplicate elements.
+
+#### Solutions
+[Solution - py](./py/01-hashing/019-exclusive-items.py)
+![All Testcases Passed](./assets/019-exclusive-items.py.png)
+
+[Solution - js](./js/01-hashing/019-exclusive-items.js)
+![All Testcases Passed](./assets/019-exclusive-items.js.png)
+
+[[Section Top]](#01---hashing)
 
 [[Back to Top]](#table-of-contents)
 
